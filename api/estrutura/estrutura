@@ -1,0 +1,38 @@
+my-spring-boot-app/
+│
+├── .mvn/
+│   └── wrapper/
+│       └── maven-wrapper.properties
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── api/
+│   │   │       └── java/
+│   │   │           ├── api/
+│   │   │           │   ├── controllers/
+│   │   │           │   │   └── UserController.java
+│   │   │           │   ├── models/
+│   │   │           │   │   └── User.java
+│   │   │           │   ├── repositories/
+│   │   │           │   │   └── UserRepository.java
+│   │   │           │   └── services/
+│   │   │           │       └── UserService.java
+│   │   │           └── MySpringBootAppApplication.java
+│   │   ├── resources/
+│   │   │   ├── static/           // Arquivos estáticos (HTML, CSS, JS)
+│   │   │   ├── templates/        // Templates (Thymeleaf, etc.)
+│   │   │   ├── application.properties  // Configurações da aplicação
+│   │   │   └── application.yml   // (alternativa ao properties)
+│   │   └── webapp/               // Diretório para arquivos web (opcional)
+│   └── test/
+│       └── java/
+│           └── api/
+│               └── java/
+│                   └── api/
+│                       ├── MySpringBootAppApplicationTests.java
+│                       └── // Outros testes de unidade
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md
